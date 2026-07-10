@@ -6,7 +6,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-database-47A248?logo=mongodb&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-<Project Name> is an open-source music app backend inspired by platforms like Spotify and other music streaming services. Built with Node.js, Express, and MongoDB, it provides authentication, role-based access, music upload support, album management, and API endpoints for frontend clients.
+Music_WebApp is an open-source music app backend inspired by platforms like Spotify and other music streaming services. Built with Node.js, Express, and MongoDB, it provides authentication, role-based access, music upload support, album management, and API endpoints for frontend clients.
 
 This repository is maintained as the backend service. Frontend development is open for community contribution.
 
