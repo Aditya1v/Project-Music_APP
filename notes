@@ -1,0 +1,7 @@
+MiddleWare powers --->
+
+1.req ke ander jo bhi data ata hai sab read kr skte hai
+
+2.req k ander jo data ata hai usse modify bhi kr skte hai.
+
+3.response bhi send kr skte hai
