@@ -1,9 +1,0 @@
-for password we perform hashing
-
-hashing have two property->
-1. it cant be reverse to plain text 
-2.when you provide same plain text then you got same hash
-
-we use hash, for sitution like if our DB breached then our hashed data of password prevent main password breaching.
-
-for hashing we install a package 'npm i bcrpytjs'

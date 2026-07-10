@@ -9,7 +9,6 @@ async function registerUser(req, res){
 
   const isUserAlreadyExists = await userModel.findOne({
 
-    //this $or operator is used to check if username with email 1 try to login then it do, basically ye har property(condition) ko check krta hai and agr koi bhi condition satisfy hogi to user return krdega uss prop k
     $or:[
       {username},
       {email}
@@ -20,8 +19,7 @@ async function registerUser(req, res){
     return res.status(409).json({message: "User already exists"})
   }
 
-  const hash = await bcrypt.hash(password, 10) //bcrypt ki help se plaintext ko hash me convert kr rhe hai and ye 10 jo hai ye salt hai jo ki ak random value hai jo server pe jb attack hoga to time delay krega 
-
+  const hash = await bcrypt.hash(password, 10) 
 
   const user = await userModel.create({
     username,
