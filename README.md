@@ -89,8 +89,8 @@ This repository is maintained as the backend service. Frontend development is op
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/<OWNER>/<REPOSITORY>.git
-cd <REPOSITORY>
+git clone https://github.com/Aditya1v/Project-Music_APP.git
+cd Project-Music_APP
 ```
 
 ### Install Dependencies
